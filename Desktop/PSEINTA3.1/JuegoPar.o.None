@@ -1,0 +1,61 @@
+Algoritmo Pares_y_Nones
+	
+    //Variables
+    Definir eleccionJugador, eleccionMaquina Como cadena
+    Definir numJugador, numMaquina, suma Como Entero
+	
+    Escribir "¡Hola! Vamos a jugar a pares y nones."
+	
+    //Elección: pares (1) o nones (2)
+    Repetir
+        Escribir "Elige: 1 = pares   |   2 = nones"
+        Leer opcion
+    Hasta Que opcion = 1 O opcion = 2
+	
+    //Asignar roles
+    Si opcion = 1 Entonces
+        eleccionJugador <- "pares"
+        eleccionMaquina <- "nones"
+    Sino
+        eleccionJugador <- "nones"
+        eleccionMaquina <- "pares"
+    FinSi
+	
+    Escribir "Tú escogiste: ", eleccionJugador, " | La máquina es: ", eleccionMaquina
+	
+    //Jugada del jugador: número entre 1 y 10
+    Repetir
+        Escribir "Elige un número del 1 al 10:"
+        Leer numJugador
+    Hasta Que numJugador >= 1 Y numJugador <= 10
+	
+    //Jugada aleatoria de la máquina
+    numMaquina <- Azar(10) //genera un número entre 1 y 10
+    Escribir "La máquina eligió: ", numMaquina
+	
+    //Sumar y determinar paridad 
+    suma <- numJugador + numMaquina
+	
+    //¿La suma es par?
+    Si suma % 2 = 0 Entonces
+        Escribir "La suma es PAR: ", suma
+        
+        Si eleccionJugador = "pares" Entonces
+            Escribir "¡Ganaste!"
+        Sino
+            Escribir "¡Ganó la máquina!"
+        FinSi
+		
+    Sino
+        
+        Escribir "La suma es NONES: ", suma
+		
+        Si eleccionJugador = "nones" Entonces
+            Escribir "¡Ganaste!"
+        Sino
+            Escribir "¡Ganó la máquina!"
+        FinSi
+		
+    FinSi
+
+FinAlgoritmo
