@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
+  <diagram name="Página-1" id="lP-WnoCQiLeifWxcJkdz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MdPBTLybcesso9-apQfX-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AreaMetropolitana" vertex="1">
+          <mxGeometry height="154" width="200" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-2" parent="MdPBTLybcesso9-apQfX-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- NombreArea: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- NombreEstadoOProvincia: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- NombreArea: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-3" parent="MdPBTLybcesso9-apQfX-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-4" parent="MdPBTLybcesso9-apQfX-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ mostrarNombreArea()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="200" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hotel" vertex="1">
+          <mxGeometry height="184" width="207" x="333" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-6" parent="MdPBTLybcesso9-apQfX-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;- nombre: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- direccion: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- numHabitaciones: int&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- telefono: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- numEstrellas: int&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- precioHabSimple: float&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- precioHabDoble: float&lt;/span&gt;" vertex="1">
+          <mxGeometry height="124" width="207" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-7" parent="MdPBTLybcesso9-apQfX-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="207" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-8" parent="MdPBTLybcesso9-apQfX-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ mostrarNombreHotel()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="207" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CadenaHotelera" vertex="1">
+          <mxGeometry height="114" width="160" x="730" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-10" parent="MdPBTLybcesso9-apQfX-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;- nombre: String&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;- director: String&lt;/span&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-11" parent="MdPBTLybcesso9-apQfX-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-12" parent="MdPBTLybcesso9-apQfX-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;+ mostrarDirector()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TarjetaCredito" vertex="1">
+          <mxGeometry height="86" width="207" x="333" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-14" parent="MdPBTLybcesso9-apQfX-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;- nombre: String&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="207" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-15" parent="MdPBTLybcesso9-apQfX-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="207" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="MdPBTLybcesso9-apQfX-16" parent="MdPBTLybcesso9-apQfX-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;+ mostrarNombreTarjeta()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="207" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-22" edge="1" parent="1" source="MdPBTLybcesso9-apQfX-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="MdPBTLybcesso9-apQfX-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="520" as="sourcePoint" />
+            <mxPoint x="439" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-26" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;*&lt;/span&gt;" vertex="1">
+          <mxGeometry x="500" y="540" as="geometry">
+            <mxPoint x="-51" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-27" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;*&lt;/span&gt;" vertex="1">
+          <mxGeometry x="570" y="570" as="geometry">
+            <mxPoint x="-122" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-28" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 36px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;*&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="50" x="440" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-32" edge="1" parent="1" source="MdPBTLybcesso9-apQfX-10" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="MdPBTLybcesso9-apQfX-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="520" as="sourcePoint" />
+            <mxPoint x="560" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-33" edge="1" parent="1" source="MdPBTLybcesso9-apQfX-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MdPBTLybcesso9-apQfX-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="183" />
+            </Array>
+            <mxPoint x="690" y="140" as="sourcePoint" />
+            <mxPoint x="460" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-34" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;*&lt;/span&gt;" vertex="1">
+          <mxGeometry x="620" y="443" as="geometry">
+            <mxPoint x="-51" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-35" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;1&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="30" x="700" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="F_8-9VXXupkVZ7vQfWPS-36" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;1&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="30" x="270" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
